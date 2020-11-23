@@ -154,7 +154,7 @@ for unit in attack_units:
     if isinstance(unit, Marine):
         unit.stimpack()
     elif isinstance(unit, Tank):
-        unit.seize_mode()
+        unit.set_seize_mode()
     elif isinstance(unit, Wraith):
         unit.clocking()
 
